@@ -2,6 +2,7 @@
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 [![Java  - JDBC](https://img.shields.io/badge/Java_-JDBC-006400?style=for-the-badge)](https://)
 [![Development  - In Progress](https://img.shields.io/badge/Development_-In_Progress-ffff00?style=for-the-badge)](https://)
+![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
 
 ## JavaFx / Jdbc / MySQL Project
 
