@@ -6,3 +6,57 @@
 
 ## Estudo JavaFx / Jdbc / MySQL Project
 
+
+## Passando um controller (lambda) como argumento através do Consumer genérico <T> no método loadView()
+### Eliminando multiplos métodos, neste caso loadView2() comentado em /gui/MainViewController()
+
+```java
+@FXML
+	private void onMenuItemDepartmentAction() {
+		loadView("/gui/DepartmentList.fxml", (DepartmentListController controller) -> {
+			controller.setDepartmentService(new DepartmentService());
+			controller.updateTableView();
+		});
+	}
+	
+	@FXML
+	public void onMenuItemAboutAction() {
+		loadView("/gui/About.fxml", x -> {});
+	}
+	
+	@Override
+	public void initialize(URL uri, ResourceBundle rb) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	private synchronized <T> void loadView(String absoluteName, Consumer<T> initializingAction) {
+		try {
+			FXMLLoader loader = new FXMLLoader(getClass().getResource(absoluteName));
+			VBox newVbox = loader.load();
+			
+			Scene mainScene = Main.getMainScene();
+			VBox mainVBox = (VBox)((ScrollPane)mainScene.getRoot()).getContent();
+			
+			Node mainMenu = mainVBox.getChildren().get(0);
+			mainVBox.getChildren().clear();
+			mainVBox.getChildren().add(mainMenu);
+			mainVBox.getChildren().addAll(newVbox.getChildren());
+			
+			T controller = loader.getController();
+            initializingAction.accept(controller);
+		}
+		catch (IOException e) {
+			Alerts.showAlert("IO Exception", "Error loading view", e.getMessage(), AlertType.ERROR);
+		}
+	}
+```
+
+## Para consulta, revendo conceitos de Generics
+
+<p align="center">
+        <a href="https://www.linkedin.com/in/all-an/">
+        <img align="center" width="633" height="551"  src="/images/type-parameter.png" />
+</a>
+</p>
+
