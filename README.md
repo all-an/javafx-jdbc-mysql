@@ -7,8 +7,15 @@
 
 
 
-## Estudo JavaFx / Jdbc / MySQL Project
+### Estudo JavaFx / Jdbc / MySQL Project
 
+### Projeto de estudos:
+
+- Java ( Reforçando conhecimentos em OOP e programação funcional com Java )
+- JavaFx
+- JDBC
+- MVC Pattern
+- MySQL
 
 ### Passando um controller (lambda) como argumento através do Consumer genérico <T> no método loadView()
 #### Eliminando multiplos métodos, neste caso loadView2() comentado em /gui/MainViewController()
