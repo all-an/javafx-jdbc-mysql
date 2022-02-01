@@ -6,6 +6,8 @@
 ![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
 
 
+[Download Build](https://github.com/all-an/javafx-jdbc-mysql/tree/main/download)
+
 ### Estudo JavaFx / Jdbc / MySQL Project
 
 ### Projeto de estudos:
