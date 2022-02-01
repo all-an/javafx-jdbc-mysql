@@ -6,20 +6,6 @@
 ![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
 
 
-```bash
- Build JAR file 
-o Right click project name -> Export -> Java/Runnable JAR file -> Next 
-o Select Main class 
-o Select destination folder 
-o Library handling: 3rd option
- Pack files 
-o JAR file 
-o db.properties 
-o MySQL Connector 
-o JavaFX SDK 
-o Java SDK 
-```
-
 ### Estudo JavaFx / Jdbc / MySQL Project
 
 ### Projeto de estudos:
@@ -29,6 +15,21 @@ o Java SDK
 - JDBC
 - MVC Pattern
 - MySQL
+
+```bash
+ Build JAR file 
+o Right click project name -> Export -> Java/Runnable JAR file -> Next 
+o Select Main class 
+o Select destination folder 
+o Library handling: 3rd option
+
+ Pack files 
+o JAR file 
+o db.properties 
+o MySQL Connector 
+o JavaFX SDK 
+o Java SDK 
+```
 
 ### Passando um controller (lambda) como argumento através do Consumer genérico <T> no método loadView()
 #### Eliminando multiplos métodos, neste caso loadView2() comentado em /gui/MainViewController()
