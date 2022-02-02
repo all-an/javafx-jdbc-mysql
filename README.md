@@ -2,7 +2,6 @@
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 [![JavaFX - OpenjFx 17.0.2](https://img.shields.io/badge/JavaFX-OpenjFx_17.0.2-FF0000?style=for-the-badge)](https://)
 [![Java  - JDBC](https://img.shields.io/badge/Java_-JDBC-006400?style=for-the-badge)](https://)
-[![Development  - In Progress](https://img.shields.io/badge/Development_-In_Progress-ffff00?style=for-the-badge)](https://)
 ![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
 
 
